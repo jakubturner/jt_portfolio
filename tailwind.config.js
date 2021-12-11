@@ -3,9 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
       extend: {
-        // backgroundImage: {
-        //   'main-pattern': "url('/src/images/sg.svg')",
-        // }
+        backgroundImage: {
+          'main-pattern': "url('/src/images/sg.svg')",
+        }
       },
    colors: {
      transparent: 'transparent',
