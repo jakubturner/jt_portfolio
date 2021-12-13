@@ -8,9 +8,9 @@ function App() {
 
     return (
         <main className='bgGradient w-screen h-screen relative'>
-            <div className='bg-main-pattern w-full h-full absolute top-0 left-0 bg-cover bg-center'/>
+            <div className='bg-main-pattern w-full h-full  absolute top-0 left-0 bg-cover bg-center'/>
                 <div>
-                    <img src={yoda}/>
+                    <img className='hidden xl:block' src={yoda} alt={'icon of the baby yoda'}/>
                 </div>
             <div className=' md:px-24 h-screen flex flex-col justify-evenly'>
                 <div className='md:pt-16 pl-8 pr-8 pt-32'>
@@ -20,13 +20,13 @@ function App() {
                                 I'm JT</h1>
                         </div>
                         <div className='h-full xl:ml-auto text-center'>
-                            <img src={emailIcon} alt={'email icon'}/>
                             <a href='mailto:kuba.turner@gmail.com' className='xl:px-8 xl:py-8
                 xl:static xl:justify-self-end xl:text-3xl hover:bg-orangeGrep-default md:w-56 md:text-lg
                 absolute border-purpleRain-default border-2 rounded-2xl px-4 py-2
                 bg-gradient-to-r from-yellow-default to-orangeGrep-default
-                text-white-default right-5 top-5 border-solid text-sm align-middle'>Contact
-                                me
+                text-white-default right-5 top-5 border-solid text-sm align-middle'>
+                            <img className='hidden xl:inline-block xl:mr-4' src={emailIcon} alt={'email icon'}/>
+                              Contact me
                             </a>
                         </div>
                     </div>
