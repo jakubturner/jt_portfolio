@@ -1,0 +1,13 @@
+<svg width="38" height="32" viewBox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 10.9103L10.2571 1H27.7429L37 10.9103V30L36.4857 30.5L35.9714 31L2.02857 30.953L1.51429 30.5L1 30V10.9103Z" stroke="#3B2694" stroke-width="1.5"/>
+<path d="M4.33569 4.25H33.6643V13.8703L19.0034 24.1919L4.33569 13.3737V4.25Z" fill="white" stroke="#3B2694" stroke-width="0.5"/>
+<path d="M9.9801 23L3.05703 28.3846" stroke="#3B2694" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M27.7428 23L34.6659 28.3846" stroke="#3B2694" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M30.0058 6.2L30.2115 6H31.4458L31.6515 6.2L31.8572 6.4V7.6L31.6515 7.8L31.4458 8H30.2115L30.0058 7.8L29.8 7.6V6.4L30.0058 6.2Z" fill="#11FDC7"/>
+<path d="M8.19995 4.5H8.73995H10.36H10.9V5.2V7.3L10.63 7.65L10.36 8H8.73995L8.46995 7.65L8.19995 7.3V5.2V4.5Z" fill="#FFD187"/>
+<line opacity="0.8" x1="8.19995" y1="11.75" x2="29.8" y2="11.75" stroke="#3B2694" stroke-width="0.5"/>
+<line opacity="0.8" x1="8.19995" y1="13.75" x2="27.7428" y2="13.75" stroke="#3B2694" stroke-width="0.5"/>
+<line opacity="0.8" x1="8.19995" y1="15.75" x2="24.6571" y2="15.75" stroke="#3B2694" stroke-width="0.5"/>
+<path opacity="0.8" d="M9.22852 17.5H18.4857" stroke="#3B2694" stroke-width="0.5"/>
+<path d="M2.84607 12.5556L17.9714 24H19H20.5428L35.3076 12.5556" stroke="#3B2694" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
