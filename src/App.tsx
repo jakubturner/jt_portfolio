@@ -3,23 +3,29 @@ import githubIcon from '../src/images/githubIcon.svg'
 import twitterIcon from '../src/images/Twitter.svg'
 import emailIcon from '../src/images/Email Icon.svg'
 import yoda from '../src/images/Yoda.svg'
+import { useEffect, useState } from 'react';
 
 function App() {
 
+    const [joke, setJoke] = useState<string>()
+
+useEffect(() => {
+        fetch('https://api.chucknorris.io/jokes/random').then((data) => console.log(data)).catch(err => err.message)
+    }, []);
     return (
         <main className='bgGradient w-screen h-screen relative'>
             <div className='bg-main-pattern w-full h-full  absolute top-0 left-0 bg-cover bg-center'/>
                 <div>
-                    <img className='hidden xl:block' src={yoda} alt={'icon of the baby yoda'}/>
+                    <img className='hidden xl:absolute xl:block xl:top-20 xl:left-20' src={yoda} alt={'icon of the baby yoda'}/>
                 </div>
-            <div className=' md:px-24 h-screen flex flex-col justify-evenly'>
+            <div className='xl:px-40 md:px-24 h-screen flex flex-col justify-evenly'>
                 <div className='md:pt-16 pl-8 pr-8 pt-32'>
                     <div className='flex items-center'>
                         <div className='h-full'>
                             <h1 className='xl:text-9xl md:text-8xl text-mintGreen-default w-32 h-8 font-black text-4xl inline leading-6'>Hi,
                                 I'm JT</h1>
                         </div>
-                        <div className='h-full xl:ml-auto text-center'>
+                        <div className='h-full xl:ml-40 text-center whitespace-nowrap'>
                             <a href='mailto:kuba.turner@gmail.com' className='xl:px-8 xl:py-8
                 xl:static xl:justify-self-end xl:text-3xl hover:bg-orangeGrep-default md:w-56 md:text-lg
                 absolute border-purpleRain-default border-2 rounded-2xl px-4 py-2
